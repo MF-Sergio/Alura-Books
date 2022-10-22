@@ -15,6 +15,8 @@
 
 :small_blue_diamond: [Aprendizados](#aprendizados)
 
+:small_blue_diamond: [Processo de construção](#processo-de-construção)
+
 :small_blue_diamond: [Deploy da Página](#deploy-da-página-dash)
 
 :small_blue_diamond: [Créditos](#linguagens-utilizadas-books)
@@ -22,6 +24,8 @@
 <br>
 
 ## Descrição do projeto 
+
+Projeto criado com intuito de aprimorar e treinar o conhecimento no processo de criar uma página com método mobile-first.
 
 <p align="justify">
   

@@ -32,7 +32,14 @@
 ## Aprendizados:
 
 <details>
-<summary></summary>
+<summary>Aplicando a metodologia mobile-first</summary>
+
+- Acessar e visualizar o projeto no Figma;
+- Captar informações como as cores dos elementos no Figma;
+- Começar a construir um projeto HTML;
+- Criar variáveis CSS;
+- Usar a extensão live-server;
+- Aplicar o reset.css.
 
 </details>
 
@@ -59,6 +66,10 @@
 
 
 </details>
+
+## Processo de construção
+
+22/10: Cabeçalho construído com flex-box. Imagens aplicadas e ancoradas com tags e também em background pelo CSS, no caso do menu hamburguer.
 
 <br>
 

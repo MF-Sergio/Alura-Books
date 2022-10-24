@@ -15,6 +15,8 @@
 
 :small_blue_diamond: [Aprendizados](#aprendizados)
 
+:small_blue_diamond: [Processo de construção](#processo-de-construção)
+
 :small_blue_diamond: [Deploy da Página](#deploy-da-página-dash)
 
 :small_blue_diamond: [Créditos](#linguagens-utilizadas-books)
@@ -22,6 +24,8 @@
 <br>
 
 ## Descrição do projeto 
+
+Projeto criado com intuito de aprimorar e treinar o conhecimento no processo de criar uma página com método mobile-first.
 
 <p align="justify">
   
@@ -44,8 +48,17 @@
 </details>
 
 <details>
-<summary></summary>
+<summary>Criando Header, Flexbox e @import</summary>
 
+- Baixar imagens no Figma;
+- Construir um header;
+- Transformar elementos em flex-containers e flex-items com FlexBox;
+- Associar arquivos CSS através do @import;
+- Desenvolver um menu hambúrguer interativo com HTML e CSS;
+- Position relative e absolute;
+- Importar e usar fontes do google fonts;
+- Criar sections;
+- Editar input e seu placeholder.
 
 </details>
 
@@ -69,7 +82,10 @@
 
 ## Processo de construção
 
-22/10: Cabeçalho construído com flex-box. Imagens aplicadas e ancoradas com tags e também em background pelo CSS, no caso do menu hamburguer.
+22/10: Cabeçalho com flex-box. Imagens aplicadas e ancoradas com tags e também em background pelo CSS, no caso do menu hamburguer.
+
+24/10: Menu lateral, alternável, ativa e desativa com um clique. Dentro, uma lista de links para acesso a outras páginas.<br>
+Banner com título, texto e um input para pesquisa.
 
 <br>
 

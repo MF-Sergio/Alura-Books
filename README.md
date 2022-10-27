@@ -87,6 +87,10 @@ Projeto criado com intuito de aprimorar e treinar o conhecimento no processo de 
 24/10: Menu lateral, alternável, ativa e desativa com um clique. Dentro, uma lista de links para acesso a outras páginas.<br>
 Banner com título, texto e um input para pesquisa.
 
+26/10: Carrossel criado utilizando o plugin <a href="https://swiperjs.com/swiper-api">Swiper</a>.
+
+27/10: Cartão criado com uso de grid container e adição de uma section carrossel semelhante a primeira com somente o cartão tendo uma pequena diferença, estrelas de avaliação no inicio do cartão.
+
 <br>
 
 ## Deploy da página :dash:

@@ -6,6 +6,7 @@
     font-size: 18px;
     font-weight: 700;
     padding: 20px 0 8px 0;
+    line-height: 27px;
 }
 
 .swiper-pagination {
@@ -23,4 +24,103 @@
 
 .swiper-button-prev, .swiper-button-next {
     display: none;
+}
+
+.cartao {
+    background-color: var(--branco);
+    display: grid;
+    grid-template-areas: 
+    "titulo imagem"
+    "livro-titulo imagem"
+    "texto imagem"
+    "icones botao";
+    align-items: center;
+    width: 380px;
+    height: 295px;
+    margin: 20px 24px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 16px 16px 23px;
+    box-sizing: border-box;
+}
+
+.cartao__titulo {
+    grid-area: titulo;
+    color: var(--laranja);
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.cartao__livro-titulo {
+    grid-area: livro-titulo;
+    color: var(--azul-marinho);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.cartao__texto {
+    grid-area: texto;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    width: 148px;
+    line-height: 21px;
+}
+
+.cartao__icones {
+    grid-area: icones;
+    padding-top: 8px;
+}
+
+.cartao__icones img {
+    width: 48px;
+    height: 48px;
+}
+
+.cartao__imagem {
+    grid-area: imagem;
+    width: auto;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+.cartao__botao {
+    grid-area: botao;
+    text-align: center;
+    width: 161px;
+    line-height: 48px;
+    font-weight: 700;
+    background-color: var(--laranja);
+    color: var(--branco);
+}
+
+.carrossel__titulo--mais-vendidos {
+    padding: 24px 0 8px 0;
+}
+
+.cartao--autora-do-mes {
+    display: grid;
+    grid-template-areas: 
+    "estrelas imagem"
+    "titulo imagem"
+    "autora imagem"
+    "texto imagem"
+    "icones botao";
+}
+
+.cartao__estrelas {
+    grid-area: estrelas;
+    width: auto;
+}
+
+.cartao__autora {
+    grid-area: autora;
+    color: var(--azul-marinho);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.cartao__texto--autora-do-mes {
+    width: 152px;
 }

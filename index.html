@@ -66,6 +66,45 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             </div>
+            <div class="cartao cartao--recomendacao">
+                <h3 class="cartao__titulo">Talvez você também se interesse por...</h3>
+                <h2 class="cartao__livro-titulo">Angular 11 e Firebase</h2>
+                <p class="cartao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                <div class="cartao__icones">
+                    <img src="img/Favoritos.svg" alt="">
+                    <img src="img/Compras.svg" alt="">
+                </div>
+                <img src="img/Angular.png" alt="" class="cartao__imagem">
+                <a href="#" class="cartao__botao">Saiba mais</a>
+            </div>
+        </section>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo carrossel__titulo--mais-vendidos">Mais vendidos</h2>
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/Liderança.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/Javascript.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/Arquitetura.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/ReactNative.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/Nodejs.svg" alt=""></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="cartao cartao--autora-do-mes">
+                <img src="img/Estrelinhas.png" alt="Cinco estrelinhas de avaliação" class="cartao__estrelas">
+                <h3 class="cartao__titulo">Autora do mês</h3>
+                <h2 class="cartao__autora">Juliana Agarikov</h2>
+                <p class="cartao__texto cartao__texto--autora-do-mes">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                <div class="cartao__icones">
+                    <img src="img/Favoritos.svg" alt="">
+                    <img src="img/Compras.svg" alt="">
+                </div>
+                <img src="img/Perfil-escritora 1.png" alt="" class="cartao__imagem">
+                <a href="#" class="cartao__botao">Saiba mais</a>
+            </div>
         </section>
     </main>
     <footer class="rodape">
@@ -74,8 +113,10 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-            spaceBetween: 170,
-            slidesPerView: 3,
+            spaceBetween: -85,
+            slidesPerView: 1.71,
+            centeredSlides: true,
+            centeredSlidesBounds: true,
             pagination: {
             el: '.swiper-pagination',
             type: 'bullets',

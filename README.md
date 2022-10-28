@@ -63,7 +63,14 @@ Projeto criado com intuito de aprimorar e treinar o conhecimento no processo de 
 </details>
 
 <details>
-<summary></summary>
+<summary>Integrando o Carrossel com SwiperJS</summary>
+
+- Aplicar plugins externos através de CDN;
+- Utilizar o plugin SwiperJS;
+- Reforçar o aprendizado de flexbox;
+- Reutilizar elementos e estilos;
+- Criar listas;
+- Editar input e seu placeholder.
 
 
 </details>
@@ -96,6 +103,8 @@ Banner com título, texto e um input para pesquisa.
 ## Deploy da página :dash:
 
 > https://mf-sergio.github.io/Atividade-Responsividade-Mobile_First/
+
+<strong>OBS: Por enquanto a estilização está aplicada somente para mobiles, recomenda-se olhar a página em resolução 428px para que a disposição dos elementos corretamente</strong>
   
 <br>
 

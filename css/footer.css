@@ -1,0 +1,12 @@
+hr {
+    margin: 0;
+}
+
+.rodape {
+    background: #F9F9F9;
+}
+
+.rodape__titulo {
+    line-height: 24px;
+    padding: 17px 0 24px 24px;
+}

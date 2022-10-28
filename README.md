@@ -91,12 +91,13 @@ Projeto criado com intuito de aprimorar e treinar o conhecimento no processo de 
 
 22/10: Cabeçalho com flex-box. Imagens aplicadas e ancoradas com tags e também em background pelo CSS, no caso do menu hamburguer.
 
-24/10: Menu lateral, alternável, ativa e desativa com um clique. Dentro, uma lista de links para acesso a outras páginas.<br>
-Banner com título, texto e um input para pesquisa.
+24/10: Menu lateral, alternável, ativa e desativa com um clique. Dentro, uma lista de links para acesso a outras páginas. Banner com título, texto e um input para pesquisa.
 
 26/10: Carrossel criado utilizando o plugin <a href="https://swiperjs.com/swiper-api">Swiper</a>.
 
 27/10: Cartão criado com uso de grid container e adição de uma section carrossel semelhante a primeira com somente o cartão tendo uma pequena diferença, estrelas de avaliação no inicio do cartão.
+
+28/10: Seção de tópicos criada com um título e conteúdo em flex box e ancoragem em cada tópico. Seção contato com titulo, texto, e um input pra e-mail. Footer simples criado com somente um título.
 
 <br>
 

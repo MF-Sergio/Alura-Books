@@ -35,7 +35,8 @@
     color: var(--branco);
     font-size: 14px;
     font-weight: 400;
-    padding-left: 50px;
+    padding-left: 46px;
     background: url("../img/lupa.svg") no-repeat;
+    background-size: 24px;
     background-position: 66px;
 }

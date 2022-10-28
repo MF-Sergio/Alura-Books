@@ -104,7 +104,7 @@ Banner com título, texto e um input para pesquisa.
 
 > https://mf-sergio.github.io/Atividade-Responsividade-Mobile_First/
 
-<strong>OBS: Por enquanto a estilização está aplicada somente para mobiles, recomenda-se olhar a página em resolução 428px para que a disposição dos elementos corretamente</strong>
+<strong>OBS: Por enquanto a estilização está aplicada somente para mobiles, recomenda-se olhar a página em resolução 428px para que a disposição dos elementos esteja correta</strong>
   
 <br>
 

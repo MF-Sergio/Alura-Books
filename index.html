@@ -10,12 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="cabecalho">
         <div class="cabecalho__container">
-            <input type="checkbox" id="menu-toggle" class="container__botao">
+            <input type="checkbox" id="menu-toggle" class="menu__botao">
             <label for="menu-toggle">
                 <span class="cabecalho__menu-hamburguer container__imagem"></span>
             </label>
@@ -37,12 +40,38 @@
                     <a href="#" class="menu-lista__link">Design & UX</a>
                 </li>
             </ul>
-            <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
+            <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem container__logo">
+            <h1 class="cabecalho__titulo"><b class="cabecalho__titulo-destaque">Alura</b>Books</h1>
+            <ul class="cabecalho__opcoes">
+                <input type="checkbox" id="opcoes-toggle" class="opcoes__botao">
+                <label for="opcoes-toggle">
+                    <li class="opcoes__item">Categorias</li>
+                </label>
+                <ul class="menu-lista">
+                    <li class="menu-lista__item">
+                        <a href="#" class="menu-lista__link">Programação</a>
+                    </li>
+                    <li class="menu-lista__item">
+                        <a href="#" class="menu-lista__link">Front-end</a>
+                    </li>
+                    <li class="menu-lista__item">
+                        <a href="#" class="menu-lista__link">Infraestrutura</a>
+                    </li>
+                    <li class="menu-lista__item">
+                        <a href="#" class="menu-lista__link">Business</a>
+                    </li>
+                    <li class="menu-lista__item">
+                        <a href="#" class="menu-lista__link">Design & UX</a>
+                    </li>
+                </ul>
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
+            </ul>
         </div>
         <div class="cabecalho__container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
-            <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
-            <a href="#"><img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
+            <a href="#" class="cabecalho__icone-favoritos"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+            <a href="#" class="cabecalho__icone-carrinho"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+            <a href="#" class="cabecalho__icone-usuario"><img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
     </header>
     <main class="principal">
@@ -148,10 +177,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-            spaceBetween: -85,
-            slidesPerView: 1.71,
-            centeredSlides: true,
-            centeredSlidesBounds: true,
+            spaceBetween: 20,
+            slidesPerView: 3,
             pagination: {
             el: '.swiper-pagination',
             type: 'bullets',

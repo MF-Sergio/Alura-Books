@@ -40,3 +40,29 @@
     background-size: 24px;
     background-position: 66px;
 }
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        height: 330px;
+        padding: 84px 230px 84px 230px;
+        box-sizing: border-box;
+    }
+    
+    .banner__titulo {
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .banner__texto {
+        width: auto;
+        margin: 0 0 26px 0;
+    }
+
+    .banner__pesquisa {
+        width: 476px;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 115px;
+    }
+}

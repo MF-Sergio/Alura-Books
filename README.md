@@ -99,6 +99,8 @@ Projeto criado com intuito de aprimorar e treinar o conhecimento no processo de 
 
 28/10: Seção de tópicos criada com um título e conteúdo em flex box e ancoragem em cada tópico. Seção contato com titulo, texto, e um input pra e-mail. Footer simples criado com somente um título.
 
+02/11: Alterações do cabeçalho, banner, carrossel e cartão para se adaptar ao formato "tablet", oferencendo dinamicidade a página.
+
 <br>
 
 ## Deploy da página :dash:

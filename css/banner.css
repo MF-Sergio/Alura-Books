@@ -44,7 +44,7 @@
 @media screen and (min-width: 1024px) {
     .banner {
         height: 330px;
-        padding: 84px 230px 84px 230px;
+        padding: 84px 84px 230px;
         box-sizing: border-box;
     }
     

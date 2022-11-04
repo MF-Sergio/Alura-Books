@@ -125,33 +125,46 @@
     line-height: 27px;
 }
 
-.cartao__texto--autora-do-mes {
+.cartao--autora-do-mes .cartao__texto {
     width: 152px;
 }
 
 @media screen and (min-width: 1024px) {    
+    .carrossel__titulo {
+        padding: 53px 0 16px;
+        font-size: 26px;
+        line-height: 39px;
+    }
+    
     .swiper {
         width: 801px;
     }
 
-    .swiper-wrapper div {
-        margin: 0;
+    .swiper-pagination {
+        padding: 32px 0 77.5px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
     }
 
     .swiper-button-prev {
         content: url("../img/seta-esquerda.svg");
         width: 48px;
+        height: 48px;
         display: block;
-        top: 56%;
-        left: -5px;
+        top: 55%;
+        left: -2px;
     }
 
     .swiper-button-next {
         content: url("../img/seta-direita.svg");
         width: 48px;
+        height: 48px;
         display: block;
-        top: 56%;
-        right: -5px;
+        top: 55%;
+        right: -2px;
     }
 
     .swiper-slide img {
@@ -163,13 +176,17 @@
         height: 266px;
         margin: 61.5px auto 48px auto;
         align-items: flex-start;
-        grid-template-rows: 24px 27px 75px auto;
         padding: 23px 23px 22px 16px;
     }
 
-    .cartao__texto {
-        width: auto;
+    .cartao--recomendacao .cartao__texto {
+        font-size: 1rem;
         line-height: 24px;
+        width: auto;
+    }
+
+    .cartao--autora-do-mes .cartao__texto {
+        width: auto;
     }
 
     .cartao__icones, .cartao__botao {

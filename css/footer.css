@@ -11,6 +11,10 @@ hr {
     line-height: 24px;
 }
 
+.rodape__lista {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .rodape {
         display: grid;

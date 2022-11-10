@@ -65,6 +65,10 @@
     display: none;
 }
 
+.cabecalho__icone-titulo {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .cabecalho {
         justify-content: center;
@@ -100,6 +104,10 @@
         display: none;
     }
 
+    .opcoes__item {
+    text-transform: uppercase;
+    }
+
     .opcoes__botao:checked~.menu-lista {
         display: block;
     }
@@ -122,5 +130,23 @@
 
     .cabecalho__icone-carrinho {
         margin-right: 61px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .cabecalho {
+        justify-content: space-between;
+        padding: 0 80px 0 80px;
+    }
+
+    .cabecalho__icone {
+        display: flex;
+        align-items: center;
+    }
+
+    .cabecalho__icone-titulo {
+        display: block;
+        font-size: 20px;
+        line-height: 30px;
     }
 }

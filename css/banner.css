@@ -44,7 +44,7 @@
 @media screen and (min-width: 1024px) {
     .banner {
         height: 330px;
-        padding: 84px 84px 230px;
+        padding-top: 84px;
         box-sizing: border-box;
     }
     
@@ -64,5 +64,20 @@
 
     .banner__pesquisa::placeholder {
         background-position: 115px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__texto {
+        display: block;
+    }
+
+    .banner__pesquisa {
+        width: 586px;
+        height: 56px;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 160px;
     }
 }

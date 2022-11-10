@@ -196,4 +196,49 @@
     .cartao__imagem {
         width: 146px;
     }
+
+    @media screen and (min-width: 1728px) {
+        .carrossel {
+            padding-bottom: 114px;
+        }
+        
+        .carrossel__titulo {
+            font-size: 32px;
+            line-height: 48px;
+            padding: 42px 0 16px 0;
+        }
+
+        .carrossel__container {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .swiper {
+            width: 745px;
+            margin: 0;
+        }
+
+        .swiper-pagination {
+            padding: 74px 0 40px;
+        }
+
+        .cartao {
+            margin: 0 0 0 46px;
+            height: 278px;
+        }
+
+        .cartao__titulo {
+            font-size: 32px;
+            line-height: 48px;
+        }
+
+        .cartao__icones {
+            padding-top: 10px;
+        }
+
+        .carrossel__titulo--mais-vendidos {
+            padding-top: 64px;
+        }
+    }
 }

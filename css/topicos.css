@@ -56,6 +56,23 @@
 
     .topicos__link {
         font-size: 24px;
-        list-style: 36px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .topicos {
+        padding-top: 64px;
+        height: 418px;
+    }
+
+    .topicos__titulo {
+        font-size: 32px;
+        list-style: 48px;
+    }
+
+    .topicos__lista {
+        width: 827px;
+        margin: 0 auto;
     }
 }

@@ -76,8 +76,12 @@ Projeto criado com intuito de aprimorar e treinar o conhecimento no processo de 
 </details>
 
 <details>
-<summary></summary>
+<summary>Selecionando Media Queries</summary>
 
+- Usar media queries;
+- Aplicar diferentes estilos para diferentes tamanhos de tela;
+- Retirar elementos da tela;
+- Aplicar elementos na tela de acordo com o tamanho do dispositivo.
 
 </details>
 

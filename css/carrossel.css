@@ -99,6 +99,10 @@
     color: var(--branco);
 }
 
+.cartao__botao:active {
+    background-color: blue
+}
+
 .carrossel__titulo--mais-vendidos {
     padding: 24px 0 8px 0;
 }

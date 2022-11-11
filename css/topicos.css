@@ -24,6 +24,14 @@
     padding: 16px 24px;
 }
 
+.topicos__item:hover{
+    background-color: var(--branco);
+}
+
+.topicos__item:hover>.topicos__link {
+    color: var(--laranja);
+}
+
 .topicos__link {
     color: var(--branco);
     line-height: 21px;

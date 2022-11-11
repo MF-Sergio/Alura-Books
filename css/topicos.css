@@ -33,7 +33,7 @@
 
 @media screen and (min-width: 1024px) {
     .topicos {
-        height: 332px;
+        height: auto;
         padding: 32px 0;
         box-sizing: border-box;
         border: none;
@@ -48,6 +48,8 @@
     .topicos__lista {
         gap: 24px;
         padding: 0;
+        width: 50vw;
+        margin: 0 auto;
     }
 
     .topicos__item {

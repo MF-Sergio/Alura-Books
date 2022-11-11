@@ -39,7 +39,7 @@
     "texto imagem"
     "icones botao";
     align-items: center;
-    width: 380px;
+    width: 88.8vw;
     height: 295px;
     margin: 20px 24px;
     border-radius: 10px;
@@ -67,7 +67,7 @@
     grid-area: texto;
     color: rgba(0, 0, 0, 0.85);
     font-size: 14px;
-    width: 148px;
+    width: 34.5vw;
     line-height: 21px;
 }
 
@@ -85,12 +85,13 @@
     grid-area: imagem;
     width: auto;
     align-self: flex-start;
-    justify-self: center;
+    justify-self: flex-end;
 }
 
 .cartao__botao {
     grid-area: botao;
     text-align: center;
+    justify-self: flex-end;
     width: 161px;
     line-height: 48px;
     font-weight: 700;
@@ -137,7 +138,7 @@
     }
     
     .swiper {
-        width: 801px;
+        width: 78vw;
     }
 
     .swiper-pagination {
@@ -172,7 +173,7 @@
     }
 
     .cartao {
-        width: 588px;
+        width: 57.4vw;
         height: 266px;
         margin: 61.5px auto 48px auto;
         align-items: flex-start;
@@ -193,7 +194,7 @@
         align-self: flex-end;
     }
 
-    .cartao__imagem {
+    .cartao__imagem, .cartao__botao {
         width: 146px;
     }
 
@@ -215,7 +216,7 @@
         }
 
         .swiper {
-            width: 745px;
+            width: 43vw;
             margin: 0;
         }
 
@@ -225,6 +226,7 @@
 
         .cartao {
             margin: 0 0 0 46px;
+            width: 34vw;
             height: 278px;
         }
 

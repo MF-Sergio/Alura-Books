@@ -20,6 +20,8 @@
 }
 
 .banner__pesquisa {
+    display: block;
+    margin: 0 auto;
     text-align: center;
     font-size: 14px;
     font-weight: 400;

@@ -1,4 +1,4 @@
-<h1>Atividade Página Alura Plus</h1>
+<h1>Alura Books</h1>
 
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=VSCode&message=1.72.0&color=blue&style=for-the-badge"/>
@@ -25,7 +25,8 @@
 
 ## Descrição do projeto 
 
-Projeto criado com intuito de aprimorar e treinar o conhecimento no processo de criar uma página com método mobile-first.
+Projeto feito em acompanhamento ao curso "HTML e CSS: responsividade com mobile-first" da Alura
+Este projeto foi criado com intuito de aprimorar e treinar o conhecimento no processo de desenvolver uma página com método mobile-first.
 
 <p align="justify">
   

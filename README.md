@@ -116,15 +116,19 @@ Projeto criado com intuito de aprimorar e treinar o conhecimento no processo de 
 
 28/10: Seção de tópicos criada com um título e conteúdo em flex box e ancoragem em cada tópico. Seção contato com titulo, texto, e um input pra e-mail. Footer simples criado com somente um título.
 
-02/11: Alterações do cabeçalho, banner, carrossel e cartão para se adaptar ao formato "tablet", oferencendo dinamicidade a página.
+02/11: Alterações do cabeçalho, banner, carrossel e cartão para se adaptar ao formato "tablet"(1024px), oferencendo dinamicidade a página.
+
+04/11: Adição de uma lista de links ao rodapé da página somente nas resoluções acima de 1024px. Alterações necessárias a todo o restante da página para adaptar ao formato "tablet"(1024px).
+
+10/11: Alterações feitas em toda a página para adaptar ao formato desktop(1728px). Estilização para a interação com o menu hamburger e o botão de "categorias".
+
+11/11: Criação de alguns estilos com interações. Correções finais. *Projeto Concluído*
 
 <br>
 
 ## Deploy da página :dash:
 
 > https://mf-sergio.github.io/Atividade-Responsividade-Mobile_First/
-
-<strong>OBS: Por enquanto a estilização está aplicada somente para mobiles, recomenda-se olhar a página em resolução 428px para que a disposição dos elementos esteja correta</strong>
   
 <br>
 

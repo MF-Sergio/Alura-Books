@@ -86,8 +86,21 @@ Projeto criado com intuito de aprimorar e treinar o conhecimento no processo de 
 </details>
 
 <details>
-<summary></summary>
+<summary>Produzindo CSS no desktop</summary>
 
+- Aplicar estilos com media queries diferentes;
+- Usar estilos diferentes no mesmo elemento com pseudo-classes.
+
+</details>
+
+<details>
+<summary>Publicando o projeto</summary>
+
+- Construir um repositório com o código do curso;
+- Escrever commits;
+- O que é deploy;
+- Fazer deploy no Github Pages;
+- Abrir o projeto em outros dispositivos.
 
 </details>
 

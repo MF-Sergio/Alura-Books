@@ -129,7 +129,7 @@ Este projeto foi criado com intuito de aprimorar e treinar o conhecimento no pro
 
 ## Deploy da página :dash:
 
-> https://mf-sergio.github.io/Atividade-Responsividade-Mobile_First/
+> https://mf-sergio.github.io/Alura-Books/
   
 <br>
 

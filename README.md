@@ -17,8 +17,6 @@
 
 :small_blue_diamond: [Processo de construção](#processo-de-construção)
 
-:small_blue_diamond: [Deploy da Página](#deploy-da-página-dash)
-
 :small_blue_diamond: [Créditos](#linguagens-utilizadas-books)
 
 <br>
@@ -125,12 +123,6 @@ Este projeto foi criado com intuito de aprimorar e treinar o conhecimento no pro
 
 11/11: Criação de alguns estilos com interações. Correções finais. *Projeto Concluído*
 
-<br>
-
-## Deploy da página :dash:
-
-> https://mf-sergio.github.io/Alura-Books/
-  
 <br>
 
 ## Linguagens utilizadas :books:

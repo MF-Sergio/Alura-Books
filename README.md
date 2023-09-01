@@ -17,6 +17,8 @@
 
 :small_blue_diamond: [Processo de construção](#processo-de-construção)
 
+:small_blue_diamond: [Deploy da Página](#deploy-da-página-dash)
+
 :small_blue_diamond: [Créditos](#linguagens-utilizadas-books)
 
 <br>
@@ -129,6 +131,12 @@ Este projeto foi criado com intuito de aprimorar e treinar o conhecimento no pro
 
 - `HTML5`
 - `CSS3`
+
+<br>
+
+## Deploy da página :dash:
+
+> https://alura-books-five-gold.vercel.app
 
 <br>
   
